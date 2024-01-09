@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.model {
+    overflow: hidden;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.details {
+    margin-top: 5rem;
+    margin-right: 5rem;
+}
+
+.details div {
+    width: 100%;
+    display: flex;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.label {
+    flex: 1.5;
+    justify-content: center;
+    font-weight: 900;
+}
+
+.show {
+    flex: 3.5;
+    justify-content: center;
+}
+
+#summary {
+    text-align: justify;
+}

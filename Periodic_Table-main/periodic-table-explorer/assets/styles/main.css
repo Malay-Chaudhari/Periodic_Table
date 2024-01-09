@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* .container {
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 10rem;
+} */
+
+#periodic-table-container {
+    display: grid;
+    transform: scale(0.8);
+    grid-template-columns: repeat(18, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+}
+
+/* CSS for element Div */
+.element {
+    font-size: 0.7rem;
+    width: 100%;
+    /* aspect-ratio: 1; */
+    text-align: center;
+    border: 1px solid rgb(175, 175, 175);
+}
+
+.first{
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.elementNumber {
+    width: 10%;
+    text-align: left;
+    padding-left: 0.3rem;
+}
+
+.elementMass {
+    width: 90%;
+    text-align: right;
+    padding-right: 0.3rem;
+}
+
+.elementSymbol {
+    font-size: 1.5rem;
+}
+
+.elementName {
+    font-size: 0.8rem;
+    margin-top: 1rem;
+}
+
+/* Changing the background color of an element according to the block */
+.s {
+    background-color: pink;
+}
+
+.p {
+    background-color: lightyellow;
+}   
+
+.f {
+    background-color: lightgreen;
+}
+
+.d {
+    background-color: lightblue;
+}
