@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="../assets/styles/contactUs.css">
+  <link rel="stylesheet" href="../assets/styles/responsive.css">
+</head>
+
+<body>
+  <div class="menu">
+    <div class="home"><a href="index.html">Cybage Learning</a></div>
+    <div class="list">
+        <div class="chemistry">
+            <a href="chemistry.html">Chemistry</a>
+        </div>
+        <div class="geography"><a href="geography.html">Geography</a></div>
+        <div class="contactUs"><a href="contactUs.html">Contact Us</a></div>
+    </div>
+    <div class="hamburgerMenu">
+        <img src="../assets/images/hamburgerMenu.png" alt="Hamburger Menu">
+    </div>
+</div>
+
+  <div class="container2">
+    <form id="contact" action="" method="post">
+      <h3>Contact Us</h3>
+      <fieldset>
+        <input placeholder="Your name" id="name" type="text" tabindex="1" required autofocus>
+      </fieldset>
+      <fieldset>
+        <input placeholder="Your Email Address" type="email" id="email" tabindex="2" required>
+      </fieldset>
+      <fieldset>
+        <textarea id="message" placeholder="Type your Message Here...." tabindex="5" required></textarea>
+      </fieldset>
+      <fieldset>
+        <input name="submit" type="button" id="contact-submit" value="Submit">
+      </fieldset>
+    </form>
+  </div>
+
+  <script src="../assets/scripts/saveDetails.js"></script>
+  <script src="../assets/scripts/hamburgerEffect.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:"Open Sans", Helvetica, Arial, sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.menu {
+    max-width: 100%;
+    display: flex;
+    height: 5rem;
+    align-items: center;
+    color: white;
+    text-transform: uppercase;
+    background-color: yellowgreen;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.home {
+    width: 30%;
+    font-size: 2rem;
+    margin-left: 5rem;
+}
+
+.list {
+    display: flex;
+    width: 70%;
+    gap: 1rem;
+    align-items: center;
+    justify-content: right;
+    margin-right: 5rem;
+}
+
+.hamburgerMenu img {
+    height: 50px;
+    display: none;
+}
+
+.divi {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.searchBar {
+    padding: 1rem;
+    top: 3;
+    right: 0;
+}
+
+input {
+    border-radius: 10px;
+    height: 2.5rem;
+    font-size: 20px;
+    width: 250px;
+}
+
+
+#periodic-table-container {
+    padding: 0 1rem;
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: repeat(18, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+    transform: scale(0.9);
+    gap: 5px;
+}
+
+/* CSS for element Div */
+.element {
+    font-size: 0.6rem;
+    width: 100%;
+    /* aspect-ratio: 1; */
+    text-align: center;
+    transition: all 0.2s;
+    border: 1px solid rgb(175, 175, 175);
+
+    &:hover {
+        cursor: pointer;
+        transform: scale(1.3);
+        box-shadow: rgba(100, 100, 100, 0.2) 0px 7px 29px 0px;
+    }
+}
+
+.elementNumber {
+    text-align: right;
+    padding-right: 0.4rem;
+    margin-bottom: 0.2rem;
+    padding-top: 0.2rem;
+}
+
+.elementSymbol {
+    font-size: 1.5rem;
+    text-align: center;
+    padding-left: 0.2rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Changing the background color of an element according to the block */
+.s {
+    background-color: pink;
+}
+
+.p {
+    background-color: lightyellow;
+}   
+
+.f {
+    background-color: lightgreen;
+}
+
+.d {
+    background-color: lightblue;
+}

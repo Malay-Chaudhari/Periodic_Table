@@ -1,0 +1,88 @@
+@import url("main.css");
+@import url("elements.css");
+
+@media (max-width:1540px) {
+    .elementName {
+        display: none;
+    }
+}
+
+@media (max-width:1120px) {
+    #periodic-table-container{
+        gap: 0;
+    }
+
+    .elementSymbol {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width:900px) {
+    .elementSymbol {
+        font-size: 1.3vw;
+    }
+
+    .container1 {
+        grid-template-columns: 1fr;    
+        place-content: center;
+    }
+
+    .details {
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    model-viewer {
+        height: 500px !important;
+    }
+}
+
+@media (max-width:680px) {
+    .divi {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .menu {
+        justify-content: space-between;
+    }
+
+    .list {
+        position: absolute;
+        display: none;
+        flex-direction: column;
+        margin-top: 10rem;
+        background-color: green;
+        width: 100%;
+    }
+
+    .active {
+        display: flex;
+    }
+
+    .hamburgerMenu {
+        margin-right: 20px;
+    }
+
+    .hamburgerMenu img {
+        display: block;
+    }
+
+    .searchBar {
+        text-align: center;
+    }
+
+    #periodic-table-container {
+        padding: 0;
+        transform: scale(1);
+    }
+
+    .elementNumber {
+        display: none;
+    }
+
+    input {
+        width: 220px;
+        font-size: 10px;
+    }
+}
